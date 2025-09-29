@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>St. Luke's Orthopedic & Trauma Hospital - Appointment System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="download.jpeg" alt="St. Luke's Hospital Logo" class="logo">
+    <h1>St. Luke's Orthopedic & Trauma Hospital</h1>
+    <p>Smart Healthcare Appointment System</p>
+  </header>
+
+  <main>
+    <section id="booking-section">
+      <h2>Book an Appointment</h2>
+      <form id="appointment-form">
+        <label>Patient Name:</label>
+        <input type="text" id="patientName" required>
+
+        <label>Choose Doctor:</label>
+        <select id="doctorSelect" required></select>
+
+        <label>Choose Date & Time:</label>
+        <input type="datetime-local" id="appointmentTime" required>
+
+        <button type="submit">Book Appointment</button>
+      </form>
+    </section>
+    <section id="appointments-section">
+      <h2>Upcoming Appointments</h2>
+      <ul id="appointmentsList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 St. Luke's Orthopedic & Trauma Hospital</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

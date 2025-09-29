@@ -1,0 +1,32 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Michael Otieno - Orthopedic Surgeon"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Grace Wanjiku - Trauma Specialist"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Kevin Mwangi - Physiotherapist"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "75d2",
+      "patientName": "jonah tarus",
+      "doctorId": "2",
+      "doctorName": "Dr. Grace Wanjiku - Trauma Specialist",
+      "time": "2025-11-12T02:32"
+    },
+    {
+      "id": "09dd",
+      "patientName": "Shialla",
+      "doctorId": "1",
+      "doctorName": "Dr. Michael Otieno - Orthopedic Surgeon",
+      "time": "2025-12-12T12:24"
+    }
+  ]
+}
